@@ -37,8 +37,9 @@
 ## 📂 Repository Structure
 
 ```
-├── analysis.ipynb          # Main Jupyter notebook — all analysis & charts
-├── trading_analysis_report.docx  # Full insights report with strategy framework
+├── analysis.ipynb                  # Main Jupyter notebook — all analysis & charts
+├── trading_analysis_report.pdf     # Full insights report with strategy framework (PDF)
+├── trading_analysis_report.docx    # Same report in editable Word format
 ├── charts/
 │   ├── pnl_by_sentiment.png
 │   ├── winrate_by_sentiment.png
@@ -54,6 +55,22 @@
 │   └── historical_data.csv
 └── README.md
 ```
+
+---
+
+## 📋 Report — `trading_analysis_report.pdf`
+
+A professionally structured insights report covering all findings from the notebook. Includes:
+
+- **Executive Summary** — dataset overview, trade activity by sentiment
+- **Core Performance Findings** — win rate, long vs short PnL, maker vs taker order quality tables
+- **5 Hidden Insight Boxes** — each with a Finding and an actionable Strategy recommendation
+- **Statistical Validation** — Kruskal-Wallis, Mann-Whitney U, and Spearman correlation results
+- **Trader Performance Analysis** — top earners ranked, Sharpe consistency scores
+- **4-Phase Trading Strategy Framework** — concrete playbook for Extreme Fear → Fear → Greed → Extreme Greed
+- **Key Insights Summary Table** — all 8 major findings with impact ratings
+
+> The report is designed to be readable standalone — no need to open the notebook to understand the findings.
 
 ---
 
